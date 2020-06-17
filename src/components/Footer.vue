@@ -1,7 +1,7 @@
 <template>
   <div class="footer-container">
     <div class="left-footer">
-      <img src="../assets/caudoi2.png" height="500px" />
+      <img src="../assets/caudoi2.png" height="400px" />
     </div>
     <div class="content-footer">
       <div class="image-class">
@@ -58,7 +58,7 @@
       </div>
     </div>
     <div class="right-footer">
-      <img src="../assets/caudoi1.png" height="500px" />
+      <img src="../assets/caudoi1.png" height="400px" />
     </div>
   </div>
 </template>
@@ -89,13 +89,13 @@ export default {
   .image-class {
     margin-bottom: 2px;
     background: brown;
-    padding: 20px 50px;
+    //padding: 10px 10px;
     display: flex;
     .image-item {
-      width: 170px;
-      height: 170px;
+      width: 150px;
+      height: 150px;
       border: 2px solid #fff;
-      padding: 20px;
+      padding: 10px;
       border-radius: 50%;
     }
     .image-item:hover {
@@ -107,7 +107,7 @@ export default {
       display: flex;
       flex-direction: column;
       align-items: center;
-      padding: 0 30px;
+      padding: 0 10px;
       .increase {
         width: 32px;
         background: yellow;

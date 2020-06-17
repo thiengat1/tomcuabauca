@@ -88,15 +88,15 @@ export default {
   margin-bottom: 20px;
   .content-item {
     border: 5px solid #dddddd;
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     display: flex;
     justify-content: center;
-    padding-top: 70px;
+    padding-top: 50px;
     .item {
-      width: 60px;
-      height: 60px;
+      width: 50px;
+      height: 50px;
       border: 2px solid #ababaa;
       padding: 3px;
     }
@@ -107,14 +107,14 @@ export default {
   }
   .plate-item {
     img {
-      width: 250px;
-      height: 250px;
+      width: 200px;
+      height: 200px;
       border-radius: 50%;
     }
   }
   .active1{
     position: relative;
-    left: -250px;
+    left: -200px;
     transition: 10s;
     transition-property:left ;
        
