@@ -82,10 +82,9 @@ export default {
 
 <style lang="scss" scoped>
 .container {
-  height: 250px;
+  height: auto;
   display: flex;
   justify-content: center;
-  margin-bottom: 20px;
   .content-item {
     border: 5px solid #dddddd;
     width: 200px;
@@ -94,6 +93,7 @@ export default {
     display: flex;
     justify-content: center;
     padding-top: 50px;
+    margin-bottom: 20px;
     .item {
       width: 50px;
       height: 50px;

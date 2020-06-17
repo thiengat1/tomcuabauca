@@ -89,7 +89,7 @@ export default {
   .image-class {
     margin-bottom: 2px;
     background: brown;
-    //padding: 10px 10px;
+    padding: 5px 5px;
     display: flex;
     .image-item {
       width: 150px;
